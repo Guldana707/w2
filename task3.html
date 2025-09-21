@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table and Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Student Grades</h1>
+  </header>
+
+  <div class="navbar">
+    <a href="task1.html">Task 1</a>
+    <a href="task2.html">Task 2</a>
+    <a href="task3.html">Task 3</a>
+    <a href="task4.html">Task 4</a>
+  </div>
+
+  <h2 id="grades-heading" style="text-align:center; margin-top:20px;">Class Grades</h2>
+  <table>
+    <tr>
+      <th>Day</th>
+      <th>Subject</th>
+      <th>Place</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>Cinematography</td>
+      <td>C1.3.234L</td>
+    </tr>
+    <tr class="highlight-row">
+      <td>Tuesday</td>
+      <td>Web Technologies</td>
+      <td>C1.2.241K</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>Russian</td>
+      <td>C1.1.366P</td>
+    </tr>
+    <tr>
+      <td>Thuesday</td>
+      <td>Screenwriting</td>
+      <td>C1.2.227P</td>
+    </tr>
+  </table>
+
+  <div class="form-container">
+    <h2>Feedback Form</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+
+      <label for="role">Role:</label>
+      <select id="role" name="role">
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Other</option>
+      </select>
+
+      <label>Are you happy?</label>
+      <input type="radio" id="yes" name="recommend" value="Yes"> <label for="yes">Yes</label>
+      <input type="radio" id="no" name="recommend" value="No"> <label for="no">No</label>
+
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; Created by Guldana. All right reserved</p>
+  </footer>
+</body>
+</html>

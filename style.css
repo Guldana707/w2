@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f9;
+  color: #000000;
+}
+
+/* Header */
+header {
+  background: #a072b0;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background: #eec3fb;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navbar a {
+  display: inline-block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Layout for Task 1 */
+.container {
+  margin: 20px;
+  overflow: auto;
+}
+
+.sidebar {
+  float: left;
+  width: 25%;
+  background: #f8f9fa;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.main-content {
+  float: right;
+  width: 70%;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  clear: both;
+  background: #a072b0;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Task 2 Tribute Page */
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.content img {
+  max-width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  display: block;
+  margin: 10px auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #a072b0;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #222;
+}
+
+/* Task 3 Table */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th {
+  background: #a072b0;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.highlight-row {
+  background: #eccef5 !important;
+}
+
+/* Task 3 Form */
+.form-container {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-container label {
+  font-weight: bold;
+  display: block;
+  margin: 8px 0 4px;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container input[type="radio"] {
+  width: auto;
+  margin-right: 6px;
+}
+
+.form-container button {
+  padding: 10px;
+  width: 100%;
+  background: #a072b0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-container button:hover {
+  background: #a072b0;
+}
+
+
+/* Task 4 */
+.wireframe {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border: 1px dashed #999;
+  .jennie-img {
+  width: 30%;
+  display: block;
+  margin: 0 auto; /* чтобы центрировать */
+  border-radius: 8px;
+}
+}
